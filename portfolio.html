@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="porfolio.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="logo transparent.png" class="navbar-logo"></a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                  <a class="nav-link active mx-lg-2" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="index.html">Store</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="contact.html" id="sidebarToggle">Contact</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+            <button class="btn btn-outline-dark btn-sidebar-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="offcanvasNavbar">
+               Sidebar
+            </button>
+        </div>
+    </nav>
+  
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="sidebar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/index.php/" target="_blank">Facebook</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://x.com/" target="_blank">Twitter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/?hl=en" target="_blank">Instagram</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.youtube.com/" target="_blank">YouTube</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.tiktok.com/login" target="_blank">TikTok</a>
+                </li>
+            </ul>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active mx-lg-2" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="index.html">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="contact.html" id="sidebarToggle">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+        </div>
+    </div>
+
+    <section class="hero-section text-center bg-light py-5">
+        <div class="container">
+            <h1 class="display-4">Welcome to My Portfolio</h1>
+            <p class="lead">I am Rovic Sarthou, a passionate Gemologist</p>
+        </div>
+    </section>
+
+    <section class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="profile.jpg" class="img-fluid rounded-circle mb-4" alt="Your Photo">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-center mb-4">About Me</h2>
+                    <p class="lead">Hello! I am Rovic Sarthou, a Gemologist with a passion for gemstones and fine jewelry. With 7 years of experience in the jewelry industry, I specialize in gemstone identification, appraisal, and jewelry design.</p>
+                    <p>I am dedicated to combining craftsmanship with a deep understanding of gemology to create exquisite pieces that resonate with elegance and quality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Gemstone Identification</h5>
+                            <p class="card-text">Ability to identify gemstones based on their physical and optical properties, including color, refractive index, and inclusions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Jewelry Design</h5>
+                            <p class="card-text">Knowledge of jewelry design principles and techniques to create aesthetically pleasing and functional jewelry pieces.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Market Knowledge</h5>
+                            <p class="card-text">Awareness of market trends, prices, and consumer preferences in gemstones and jewelry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="gemstone-identifier.webp" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Gem Identification</h5>
+                            <p class="card-text">Utilizes a range of tools and techniques such as magnification, spectroscopy, and refractometry to identify gemstones accurately.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="designconcept.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Jewelry Design</h5>
+                            <p class="card-text">Translates ideas and inspirations into preliminary sketches and designs, considering aesthetic appeal and functionality.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="appraisal.PNG" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Jewelry Appraisal</h5>
+                            <p class="card-text"> Utilizes expertise to evaluate jewelry based on factors like material composition (e.g., precious metals, gemstones), craftsmanship, brand reputation, and market demand.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted"><img src="logo transparent.png" height="100px" width="100px">| Rovic Christopher M. Sarthou | 202312219@fit.edu.ph</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
