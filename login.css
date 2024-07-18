@@ -46,8 +46,10 @@
     }
 }
 body {
-    background-color: #f8f9fa;
-    padding-top: 100px; /* Adjust according to the height of your navbar */
+    background-color: rgb(149, 205, 149);
+    background-image: linear-gradient(green, yellow);
+    min-height: 800px;
+    padding-top: 100px; 
 }
 
 .card {
